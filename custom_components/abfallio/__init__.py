@@ -1,0 +1,2 @@
+"""The abfall.io integration."""
+

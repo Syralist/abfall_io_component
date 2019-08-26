@@ -1,0 +1,9 @@
+{
+  "domain": "abfallio",
+  "name": "Abfall.io",
+  "documentation": "https://github.com/Syralist/abfall_io_component",
+  "dependencies": [],
+  "codeowners": ["@syralist"],
+  "requirements": []
+}
+
