@@ -13,6 +13,15 @@ To find the correct values I used the development tools in Chrome to look at the
 
 You might also need to change the names of the different waste types. For example _Hausmüll_ might be called _Restmüll_ in your case.
 
+Add the sensors to your configuration.yaml:
+
+    sensor:
+        - platform: abfallio
+            resources:
+            - gelbersack
+            - hausmuell
+            - papiertonne
+
 ## Acknowledgements
 I found this code on [Tom Beyers Blog](https://beyer-tom.de/blog/2018/11/home-assistant-integration-abfall-io-waste-collection-dates/).
 There is also a thread on the [Home Assiantant Forum](https://community.home-assistant.io/t/home-assistant-integration-of-abfall-io-waste-collection-dates-schedule/80160).
